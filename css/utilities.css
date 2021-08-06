@@ -1,0 +1,56 @@
+.section{
+    border-top: 1px solid var(--bgcolor);
+    /* padding: 3rem 0; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.item1{
+    width: 40vw;
+    margin-top: 10px;
+
+}
+.container-img{
+    width: 40vw;
+    /* background-color: var(--bgcolor); */
+    border: 1px solid var(--bgcolor);
+    margin: 10px 10px;
+    /* padding: 0px 10px; */
+    /* height: ; */
+
+}
+.heading1{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: underline 2px var(--bgcolor) ;
+    color: var(--bgcolor);
+    font-size: 2vw;
+}
+.heading2{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: underline 2px var(--bgcolor) ;
+    color: var(--bgcolor);
+    font-size: 3vw;
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+}
+.html,.css,.js{
+    padding: 5px;
+    box-shadow: 1px 1px 3px var(--bgcolor);
+}
+.line1>p{
+    color: var(--bgcolor);
+    font-size: 2vw;
+}
+.skill-name>i{
+    color: var(--bgcolor);
+    font-size: 2.2vw;
+}

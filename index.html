@@ -12,10 +12,21 @@
     <link rel="stylesheet" href="css/phone.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        :root{
+    --bgcolor: #000000;
+    --bgcolor2: rgba(15, 15, 15, 0.041);
+    --maincolor: #0fffff;
+    --font1: white;
+    --footer: rgba(0, 0, 0, 0.582);
+    
 
+}
+    </style>
 
 </head>
-<body onload="loadr()">
+
+<body onload="loader()">
     <div id="loading">
         <!-- <img class="load" src="/img/loader.gif" alt="loading..."> -->
         <i class="fas fa-fingerprint load"></i>
@@ -231,6 +242,12 @@
     <div class="wp data-tilt">
        <a href="https://wa.me/+917041501887"><i class="fab fa-whatsapp"></i></a> 
     </div>
+    <div class="color-picker">
+        <select name="color" id="bgcolor" class="fas fa-circle">
+            <option value="black" id="black"><i class="fas fa-circle"></i>black</option>
+            <option value="blue" id="blue"><i class="fas fa-circle" onclick="colors()"></i>blue</option>
+        </select>
+    </div>
     <script src="/vanilla-tilt.js"></script>
     <script src="/tilt.jquery.js"></script>
     <script src="/tilt.jquery.js.map"></script>
@@ -248,11 +265,11 @@
 
     function fun1() {
     // document.getElementsByClassName('nav2').style.margineleft = '100%';
-    document.getElementById('nav2').style.marginLeft = '30%';
+    document.getElementById('nav2').style.visibility = 'visible';
     
 }
 function fun2() {
-    document.getElementById('nav2').style.marginLeft = '100%';  
+    document.getElementById('nav2').style.visibility = 'hidden';  
 }
         function validateform() {
             var name=document.getElementById('user-name').value;
@@ -267,6 +284,17 @@ function fun2() {
         function loader() {
             document.querySelector("#loading").style.display = 'none';
             
+        }
+        function colors() {
+            let coloroption = document.querySelector('#bgcolor').value;
+            var getcolors = document.querySelector(':root');
+            console.log(coloroption);
+            
+            
+                getcolors.style.setProperty('--bgcolor', '#49b6ff');
+                getcolors.style.setProperty('--bgcolor2', '#49b6ff');
+                getcolors.style.setProperty('--blue', '#070707'); 
+        
         }
       </script>
 

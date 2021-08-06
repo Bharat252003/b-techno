@@ -1,0 +1,92 @@
+@media screen and (max-width: 400px){
+    
+    
+    .section{
+        flex-direction: row;
+        height: auto;
+    }
+    nav,.btn-contact{
+        display: none;
+    }
+    .heading2,.about-info>h2,.social ul li{
+        font-size: 5vw;
+    }
+.container{
+    flex-direction: column;
+}
+.item1{
+    width: 80vw;
+}
+.btn-bar{
+    display: block;
+}
+.skills{
+    padding: 0;
+}
+.work,.contact,.about,.education,.skills{
+    padding: 2rem;
+}
+.contact-form{
+    border: none;
+}
+.container-img,.img-about{
+    height: auto;
+    width: 80vw;
+    padding: 0;
+}
+.my-info{
+    width: 70vw;
+    padding-top: 1rem;
+}
+.my-img{
+    width: 50vw;
+    padding: 1rem 0 0 0 ;
+}
+.social ul{
+    margin: 10px 0;
+}
+.about-info>h1,.heading1,.skill-name i,footer h2,.line1>p{
+font-size: 5vw;
+}
+.my-info .profession,.heading1 i,.heading,.contact-item i,footer .social-icon>a{
+    font-size: 7vw;
+}
+.my-info .paragraph,.about-info>p,.li-info,.li-heading,footer p,.contact-form input,textarea,form button,.contact-item p,.my-info .name,.btn-contact,.btn-cv,footer h2 span
+    {
+    font-size: 4vw;
+
+}
+.about-info,.contact-form,.contact-form input,textarea,.contact-details{
+    width: 70vw;
+}
+.line1>p{
+    /* font-size: 4vw; */
+}
+.work-items-con{
+ grid-template-columns: repeat(2,1fr);
+}
+.work-item img{
+    width: 35vw;
+}
+.wp{
+    font-size: 10vw;
+}
+.education .container-img{
+    /* display: none; */
+}
+
+body{
+}
+html{
+    width: 100%;
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    
+}
+
+
+
+
+
+
+}
