@@ -206,20 +206,12 @@ nav ul li a{
 .my-img{
     width: 30vw;
     margin-right: 5vw;
-    margin: 3rem 10px;
-    /* padding: 3rem 0; */
-    border: 5px solid aqua;
-    border-radius: 50%;
+    /* margin: 3rem 10px; */
+    padding: 3rem 0;
+    /* border: 5px solid aqua; */
+    /* border-radius: 50%; */
 
     /* margin-bottom: 3rem; */
-}
-@keyframes circle {
-    form{
-        
-    }
-    to{
-
-    }
 }
 .my-info{
     color: var(--font1);
